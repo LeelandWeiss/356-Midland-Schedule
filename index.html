@@ -240,6 +240,7 @@
     margin-bottom: 10px;
   }
   .ps-confirmed { background: var(--status-confirmed); color: var(--bg-dark); }
+  .ps-completed { background: var(--accent-blue); color: #fff; }
   .ps-tentative { background: var(--status-tentative); color: var(--bg-dark); }
   .ps-pending { background: var(--status-pending); color: #fff; }
   .phase-card h3 {
@@ -314,6 +315,7 @@
     border-radius: 2px;
   }
   .vsb-confirmed { background: var(--status-confirmed); color: var(--bg-dark); }
+  .vsb-completed { background: var(--accent-blue); color: #fff; }
   .vsb-tentative { background: var(--status-tentative); color: var(--bg-dark); }
   .vsb-pending { background: var(--status-pending); color: #fff; }
 
@@ -455,7 +457,7 @@
   <div class="header-badge">McCoy's Building Supply</div>
   <h1>356 MIDLAND</h1>
   <div class="header-sub">Distribution Ramp &amp; Building Demo &nbsp;&bull;&nbsp; 3010 West Front Street, Midland, TX 79701</div>
-  <div class="header-status" contenteditable="true">● In Progress — Asbestos Remediation Phase</div>
+  <div class="header-status" contenteditable="true">● In Progress — DC Area Cleared / Ramp Construction Phase</div>
 </div>
 
 <!-- ════════════════════════════════════════════════════════ -->
@@ -506,14 +508,14 @@
       </thead>
       <tbody>
         <!-- Asbestos Remediation -->
-        <tr><td colspan="11" class="gantt-row-label">Asbestos Remediation</td></tr>
+        <tr><td colspan="11" class="gantt-row-label">Asbestos Remediation ✓</td></tr>
         <tr class="gantt-row">
           <td>Remove all ACM — both buildings</td>
           <td><div class="gantt-cell g-dark"></div></td>
           <td><div class="gantt-cell g-dark"></div></td>
           <td><div class="gantt-cell g-dark"></div></td>
           <td><div class="gantt-cell g-dark"></div></td>
-          <td class="gantt-current"><div class="gantt-cell g-red"></div></td>
+          <td class="gantt-current"><div class="gantt-cell g-blue"></div></td>
           <td></td>
           <td></td>
           <td></td>
@@ -580,11 +582,11 @@
     <!-- Phase 1 -->
     <div class="phase-card">
       <div class="phase-num">01</div>
-      <div class="phase-status ps-confirmed">Confirmed</div>
+      <div class="phase-status ps-completed">Completed</div>
       <h3 contenteditable="true">Asbestos Remediation</h3>
       <div class="phase-meta" contenteditable="true">AAR Inc. &bull; Bill Post &bull; 512-751-4007</div>
-      <div class="phase-dates" contenteditable="true">Apr 7 – 9, 2026 ✓ COMPLETE</div>
-      <div class="phase-desc" contenteditable="true">Remove all ACM from both buildings prior to demolition. Completed early — Edward confirmed all asbestos removal finished Apr 9.</div>
+      <div class="phase-dates" contenteditable="true">Apr 7 – 9, 2026 (Completed)</div>
+      <div class="phase-desc" contenteditable="true">All ACM removed from both buildings prior to demolition. Completed Apr 9.</div>
     </div>
 
     <!-- Phase 2 -->
@@ -639,11 +641,11 @@
     <tbody>
       <tr>
         <td><span class="vendor-dot vd-red"></span><span contenteditable="true">Asbestos Remediation</span></td>
-        <td contenteditable="true">AAR Inc. ✓</td>
+        <td contenteditable="true">AAR Inc.</td>
         <td contenteditable="true">Bill Post</td>
         <td contenteditable="true">512-751-4007</td>
-        <td contenteditable="true">Apr 7–9, 2026 ✓</td>
-        <td><span class="vendor-status-badge vsb-confirmed" contenteditable="true">Confirmed</span></td>
+        <td contenteditable="true">Apr 7–9, 2026</td>
+        <td><span class="vendor-status-badge vsb-completed" contenteditable="true">Completed</span></td>
       </tr>
       <tr>
         <td><span class="vendor-dot vd-orange"></span><span contenteditable="true">Ramp Construction</span></td>
@@ -706,12 +708,14 @@
   <div class="section-title">Notes</div>
   <ul class="notes-list" contenteditable="true">
     <li>Keeley Construction (Jacob Hill) — ramp confirmed Apr 13–22.</li>
-    <li>AAR Inc. — <strong>COMPLETE</strong> as of Apr 9. Edward confirmed all ACM removed from both buildings. Finished one day ahead of schedule.</li>
+    <li>AAR Inc. — completed Apr 9. All ACM removed from both buildings before demo.</li>
     <li>SENDME PRO (Robert Jaimeson) — confirmed. Scope: fencing demo, building demo, retaining wall demo, yard debris removal &amp; disposal. Mobilize Sun Apr 26, completion est. Tue May 5.</li>
     <li>SENDME PRO — fencing portion est. 5–6 days; full project scope (building demo through fencing) est. 8–10 days.</li>
     <li>Oncor Electric Delivery contacted for electrical disconnect &amp; utility pole removal. Disconnect expected free of charge; pole removal fees TBD.</li>
     <li>Gates — one existing 24-ft swing gate to be reused at marked location. Remove old fencing along yellow-marked perimeter. Install new 8-ft chain-link fencing along red-marked perimeter.</li>
     <li>Fence &amp; demo work will run concurrently — both starting Sun Apr 26. SENDME PRO handling both scopes.</li>
+    <li>Heather Sides (Distribution 356 Facility Manager) confirmed DC side area cleared for ramp project — Apr 10, 2026.</li>
+    <li>Leeland Weiss onsite Mon Apr 13 &amp; Tue Apr 14 for project kickoff — coordinating with Heather's team and Keeley Construction.</li>
   </ul>
 </div>
 
@@ -722,7 +726,7 @@
 <!-- ════════════════════════════════════════════════════════ -->
 <div class="footer">
   <div>McCoy's Building Supply &nbsp;&bull;&nbsp; 356 Midland Project</div>
-  <div contenteditable="true">Updated April 9, 2026</div>
+  <div contenteditable="true">Updated April 10, 2026</div>
 </div>
 
 </body>
